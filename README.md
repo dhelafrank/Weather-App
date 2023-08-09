@@ -21,7 +21,7 @@ The Weather App is a web application that allows users to check the weather cond
 - Responsive design, ensuring a seamless experience on various devices.
 
 ## Demo
-You can see a live demo of the Weather App [here](https://clima-sense.onrender.app).
+You can see a live demo of the Weather App [here](https://clima-sense.onrender.com).
 
 ## Installation
 1. Clone this repository to your local machine using: ```git clone https://github.com/dhelafrank/Weather-App.git```
