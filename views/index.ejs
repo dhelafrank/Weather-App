@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaSense</title>
+    <script src="https://kit.fontawesome.com/63483fd584.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <i class="fa-solid fa-ellipsis-vertical section-icon"></i>
+        <div class="section1">
+            <h1 class="location"></h1>
+            <div class="forecast">
+                <h2>Forecast</h2>
+            </div>
+            <div class="prefrence">
+                <h2>Prefrence</h2>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="current-location-details">
+
+                <h1 class="location">Loading...</h1>
+                <p class="day-time"><span class="day"></span> <span class="time-in-twelve"></span><span class="meridian-el"></span></p>
+            </div>
+            <div class="image-container">
+                <i class="fa-solid fa-cloud-sun-rain"></i>
+            </div>
+            <div class="vitals">
+                <p class="temperature" id="featuredTemperature">0</p>
+                <p class="greetings">Loading...</p>
+                <!-- <p class="username">Dhela Frank</p> -->
+            </div>
+
+
+            <div class="search">
+                <hr>
+
+                    <div class="search-box-container">
+                        <input type="search" name="" id="location-search" class="location-search"
+                        placeholder="Search for a city...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                <h4 class="city-details" id="searchName">Search</h4>
+                <div class="search-details">
+                    <div class="moment">
+                        <i class="fa-solid fa-sun"></i>
+                        <h3 id="moment">Moment</h3>
+                        <span id="searchTime"></span>
+                    </div>
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <h3>Wind</h3>
+                        <span id="searchWindSpeed"></span>
+                    </div>
+
+                    <div class="temperature">
+                        <i class="fa-solid fa-temperature-quarter"></i>
+                        <h3>Temperature</h3>
+                        <span id="searchTemp"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/script.js" type="module"></script>
+</body>
+
+</html>

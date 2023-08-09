@@ -1,0 +1,213 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Roboto&display=swap');
+ @import url('/theme.css') all;
+
+ body {
+     padding: 0;
+     margin: 0;
+     /* font-family: 'Inter', sans-serif; */
+     font-family: 'Montserrat', sans-serif;
+     /* font-family: 'Roboto', sans-serif; */
+     background: var(--background);
+     color: var(--primary-text-color);
+
+ }
+
+ .section-icon {
+     display: none;
+ }
+
+ .current-location-details * {
+     text-align: center;
+ }
+
+ .day-time {
+     text-transform: uppercase;
+ }
+
+ .container {
+     height: 100vh;
+     display: flex;
+     align-items: center;
+ }
+
+ .image-container {
+     font-size: 10rem;
+     color: var(--primary-text-color);
+ }
+
+ .section1 {
+     border-right: 1px solid var(--placeholder-background);
+     height: 100vh;
+     min-width: 30vw;
+ }
+
+ .section2 {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-evenly;
+     height: 100%;
+     width: 50vw;
+     /* outline: 1px dashed red; */
+ }
+
+ .vitals {
+     height: 10rem;
+     text-align: center;
+ }
+
+ .vitals .temperature {
+     font-size: 5rem;
+     line-height: 3rem;
+     margin: 0;
+     padding: 0;
+     font-weight: 700;
+ }
+ .vitals .greetings{
+    text-transform: uppercase;
+ }
+ .search {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .search-details {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+ }
+
+ .search-details div {
+     width: 30%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ input {
+     width: 70%;
+     padding: .5rem 1rem;
+     border-radius: 15px;
+     border: none;
+     font-size: 1.2rem;
+     outline: none;
+     margin: 1rem;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ input::placeholder {
+     color: var(--placheolder-color);
+     background: var(--placeholder-background);
+     opacity: 1;
+ }
+.search-box-container{
+    width: 100%;
+    padding-left: 20%;
+}
+.search-box-container i{
+    font-size: 1.5rem;
+}
+ hr {
+     width: 30%;
+
+ }
+
+ .search-details div * {
+     margin: 0;
+ }
+
+ .search-details div i {
+     margin: 1rem 0;
+     font-size: 1.5rem;
+ }
+
+ .search-details h3 {
+     font-size: .8rem;
+ }
+.preloader{
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(50px);
+}
+.preloader img{
+    width: 50vw;
+}
+ * {
+     /* outline: 1px dashed red; */
+ }
+
+
+
+ /* Media Query */
+ @media (max-width: 500px) {
+     body {
+         overflow: hidden;
+         font-size: 80%;
+         width: 100vw;
+         height: 100vh;
+         /* overflow-x: scroll; */
+     }
+
+     .section1 {
+         position: fixed;
+         border:none;
+         height: 100%;
+         width: 100vw;
+         background: var(--background);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         left: -100vw;
+         transition: .5s ease-in-out;
+     }
+     .section2 {
+        width: 100vw;
+        height: 100%;
+    }
+
+
+     .container {
+         height: 95vh;
+         width: 100vw;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+
+     .section-icon {
+         display: block;
+         position: absolute;
+         top: 2vh;
+         font-size: 1.5rem;
+         left: 5vw;
+         z-index: 3;
+     }
+
+     .open {
+         left: 0;
+     }
+     *{
+        /* outline: 1px dashed red; */
+     }
+     .search-box-container{
+        width: 80%;
+        padding-left: 20%;
+        /* padding: 0; */
+     }
+
+     .input{
+        width: 80%;
+     }
+ }

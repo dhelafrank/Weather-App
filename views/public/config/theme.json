@@ -1,0 +1,42 @@
+{
+    "morning": {
+        "misty": {
+            "theme": ["#C0C0C0", "#E6E6FA", "#F0FFFF"],
+            "color": ["#333333", "#333333", "#333333"]
+        },
+        "moody": {
+            "theme": ["#808080", "#2F4F4F", "#483D8B"],
+            "color": ["#FFFFFF", "#FFFFFF", "#FFFFFF"]
+        }
+    },
+    "afternoon": {
+        "cold": {
+            "theme": ["#B0E0E6", "#E0FFFF", "#F0E68C"],
+            "color": ["#333333", "#333333", "#333333"]
+        },
+        "hot": {
+            "theme": ["#FFA500", "#FF6347", "#FFD700"],
+            "color": ["#333333", "#FFFFFF", "#333333"]
+        }
+    },
+    "night": {
+        "frosty": {
+            "theme": ["#A0D8EF", "#F0F8FF", "#C0C0C0"],
+            "color": ["#333333", "#333333", "#333333"]
+        },
+        "starry": {
+            "theme": ["#191970", "#FFD700", "#FFFFF0"],
+            "color": ["#333333", "#333333", "#333333"]
+        }
+    },
+    "evening": {
+        "glary": {
+            "theme": ["#FF4500", "#FFD700", "#FFA500"],
+            "color": ["#FFFFFF", "#333333", "#333333"]
+        },
+        "cold": {
+            "theme": ["#87CEEB", "#B0C4DE", "#E0FFFF"],
+            "color": ["#333333", "#333333", "#333333"]
+        }
+    }
+}
